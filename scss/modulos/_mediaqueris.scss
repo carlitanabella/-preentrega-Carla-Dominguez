@@ -1,0 +1,56 @@
+@media (min-width: 1440px) {
+    
+    .textnav {
+
+        font-size: 1.7rem;
+
+    }
+    .textcenterbebas{
+        font-size: 2.5rem;
+
+    }
+    .textcouriercenter {
+
+        font-size: 1.5rem;
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1440px) {
+
+    .textnav {
+
+        font-size: 1.5rem;
+
+    }
+    .textcenterbebas{
+        font-size: 2.2rem;
+
+    }
+    .textcouriercenter {
+
+        font-size: 1.2rem;
+
+    }
+
+ 
+}
+
+@media (max-width: 992px) {
+
+    .textnav {
+
+        font-size: 2rem;
+
+    }
+    .textcenterbebas{
+        font-size: 2rem;
+
+    }
+    .textcouriercenter {
+
+        font-size: 1.6rem;
+
+    }
+
+}

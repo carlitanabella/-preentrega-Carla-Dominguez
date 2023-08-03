@@ -1,0 +1,122 @@
+@font-face {
+  font-family: JUST;
+  src: url(../assets/font/static/Jost-Black.ttf);
+}
+@font-face {
+  font-family: BEBAS;
+  src: url(../assets/font/BebasNeue-Regular.ttf);
+}
+body {
+  height: 100vh;
+}
+
+nav {
+  background-color: #000000;
+}
+
+footer {
+  font-family: JUST;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.imagenav {
+  display: inline;
+  width: 350px;
+}
+
+.textnav {
+  font-family: JUST;
+  color: red;
+}
+
+.imgbienvenida {
+  width: 100%;
+}
+
+.cajamain {
+  height: 100px;
+  vertical-align: middle;
+  background-color: #7ebbb7;
+}
+
+.textend {
+  font-family: "Courier New", Courier, monospace;
+  text-align: end;
+  vertical-align: middle;
+  color: #000000;
+}
+
+.textcenterbebas {
+  font-family: BEBAS;
+  text-align: center;
+  color: #000000;
+}
+
+.textcenterbebaslight {
+  font-family: BEBAS;
+  text-align: center;
+  color: #f0f8ff;
+}
+
+.tarjslogan {
+  height: 100px;
+}
+
+.imgcarousel {
+  height: 100%;
+  align-items: center;
+  background-color: #7ebbb7;
+  justify-content: center;
+}
+
+.cajaqs {
+  background-color: #545454;
+}
+
+.textcouriercenter {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media (min-width: 1440px) {
+  .textnav {
+    font-size: 1.7rem;
+  }
+  .textcenterbebas {
+    font-size: 2.5rem;
+  }
+  .textcouriercenter {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1440px) {
+  .textnav {
+    font-size: 1.5rem;
+  }
+  .textcenterbebas {
+    font-size: 2.2rem;
+  }
+  .textcouriercenter {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 992px) {
+  .textnav {
+    font-size: 2rem;
+  }
+  .textcenterbebas {
+    font-size: 2rem;
+  }
+  .textcouriercenter {
+    font-size: 1.6rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

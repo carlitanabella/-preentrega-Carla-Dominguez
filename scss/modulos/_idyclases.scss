@@ -1,0 +1,65 @@
+.imagenav {
+    display: inline;
+    width: 350px;
+}
+.textnav {
+    font-family: JUST;
+    color: red;
+
+}
+.imgbienvenida {
+
+    width: 100%;
+}
+.cajamain {
+    height: 100px;
+    vertical-align: middle;
+    background-color: $colorgreenaqua;
+
+}
+.textend {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: end;
+    vertical-align: middle;
+    color: $negronav;
+
+
+
+}
+
+.textcenterbebas {
+    font-family: BEBAS;
+    text-align: center;
+    color: $negronav;
+
+}
+.textcenterbebaslight {
+    font-family: BEBAS;
+    text-align: center;
+    color: $colorletralight;
+}
+
+
+.tarjslogan {
+    height: 100px;
+}
+.imgcarousel {
+    height: 100%;
+    align-items: center;
+    background-color: $colorgreenaqua;
+    justify-content: center;
+}
+.cajaqs {
+
+    background-color: $colorgris;
+
+}
+.textcouriercenter {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
